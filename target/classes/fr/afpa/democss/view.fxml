@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <BorderPane styleClass="header-section">
+            <right>
+                <Button id="account" text="Compte" BorderPane.alignment="CENTER">
+                    <graphic>
+                        <ImageView fitHeight="24" fitWidth="24" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@account-box.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+            </right>
+         <center>
+                <Label id="header-text" alignment="CENTER" text="Application Header" BorderPane.alignment="CENTER_LEFT" />
+         </center>
+         <left>
+            <ImageView fitHeight="150.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@logo-afpa-white.png" />
+               </image>
+            </ImageView>
+         </left>
+        </BorderPane>
+    </top>
+    <left>
+        <VBox styleClass="sidebar-section">
+            <children>
+                <Label text="Label 1" />
+                <Label text="Label 2" />
+                <Label text="Label 3" />
+                <Label text="Label 4" />
+            </children>
+        </VBox>
+    </left>
+    <center>
+        <VBox styleClass="content-section">
+            <children>
+                <Label id="content-header" text="Lorem Ipsum" />
+                <Label id="content">
+                    <text>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown 
+                        printer took a galley of type and scrambled it to make a 
+                        type specimen book. It has survived not only five centuries, 
+                        but also the leap into electronic typesetting, remaining 
+                        essentially unchanged. It was popularised in the 1960s with 
+                        the release of Letraset sheets containing Lorem Ipsum 
+                        passages, and more recently with desktop publishing software 
+                        like Aldus PageMaker including versions of Lorem Ipsum.
+                    </text>
+                </Label>
+            </children>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox id="footer-section">
+            <children>
+                <Label text="2022 Afpa" />
+            </children>
+        </HBox>
+    </bottom>
+</BorderPane>
