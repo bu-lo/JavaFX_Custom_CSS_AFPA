@@ -33,9 +33,6 @@
                </image>
             </ImageView>
          </left>
-         <stylesheets>
-            <URL value="@custom.css">
-         </stylesheets>
         </BorderPane>
     </top>
     <left>
@@ -76,4 +73,7 @@
             </children>
         </HBox>
     </bottom>
+    <stylesheets> 
+        <URL value="@custom.css" /> 
+    </stylesheets> 
 </BorderPane>
