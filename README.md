@@ -1,1 +1,1 @@
-<img align="center" src="./Preview-CSS.PNG" width="600" height="520" />
+<img align="center" src="./Preview-CSS.PNG" width="600" height="500" />
